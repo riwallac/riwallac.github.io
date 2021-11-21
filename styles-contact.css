@@ -85,7 +85,7 @@ h1 {
 	font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: rgb(240, 187, 11);
+    color: rgb(249, 205, 61);
 }
 
 h2 {
@@ -135,6 +135,6 @@ a {
 	}
 
 a:hover{
-	color: black;
+	color: rgb(251, 185, 2);
 	background: darkgrey;
 	}
