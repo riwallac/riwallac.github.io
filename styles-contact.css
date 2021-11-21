@@ -86,7 +86,7 @@ h1 {
 	font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgb(28, 95, 196);
 }
 
 h2 {
@@ -95,7 +95,7 @@ h2 {
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: rgb(28, 95, 196);
     padding: 0px 0px;<
     margin: 0px auto 25px auto;
 }
@@ -106,7 +106,7 @@ p {
 	font-style: normal;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: rgb(28, 95, 196)s;
 }
     
 nav{
