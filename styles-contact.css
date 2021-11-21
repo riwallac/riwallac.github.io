@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(bricks_bg.jpg)
+  background: url(images/bricks_bg.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
 }
