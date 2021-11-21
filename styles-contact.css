@@ -52,7 +52,6 @@ table {
 }
 
 
-
 /* ---------- Hello, my name is Riley Wallace and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2021 ------------ */
 
 html, body {
@@ -86,16 +85,16 @@ h1 {
 	font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: rgb(28, 95, 196);
+    color: rgb(240, 187, 11);
 }
 
 h2 {
 	font-family: bilo, sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: rgb(28, 95, 196);
+    color: rgb(240, 187, 11);
     padding: 0px 0px;<
     margin: 0px auto 25px auto;
 }
@@ -106,7 +105,7 @@ p {
 	font-style: normal;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: rgb(28, 95, 196)s;
+    color: rgb(240, 187, 11)s;
 }
     
 nav{
