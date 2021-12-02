@@ -59,68 +59,43 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/background.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
+	font-family: "helvetica", sans-serif;
 }
 
 .center {
-    width: 800px;
+    width: 80%;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(247, 243, 229, 0.65); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
   
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 45px;
+	margin-top: 35px;
 	text-align: center;
 }
 
-h1 {
-	font-family: bilo, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: rgb(249, 205, 61);
-}
-
-h2 {
-	font-family: bilo, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: rgb(240, 187, 11);
-    padding: 0px 0px;<
-    margin: 0px auto 25px auto;
-}
-
 p {
-	font-family: bilo, sans-serif;
-	font-weight: 400;
-	font-style: normal;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: rgb(240, 187, 11)s;
+    color:darkslategrey;
 }
     
 nav{
-	font-family: bilo, sans-serif;
-	font-size: 1.2em;
-	width: 400px;
+	width: 80%;
 	margin: 0 auto;
-	border: dashed turquoise;
-	border-width: 3px 0;
+	padding: 20px 0;
+		font-family: "helvetica", sans-serif;
 	text-align: center;
 	margin-top: 2em;
 	}
 
 nav li {
-	display: inline;
+	display: inline-block;
 	}
 
 nav a {
@@ -129,12 +104,15 @@ nav a {
 	}
 
 a {
-	color: wheat;
+	color:darkslategrey;
 	text-decoration: none;
 	font-weight: bold;
 	}
 
 a:hover{
-	color: rgb(251, 185, 2);
-	background: darkgrey;
+	color:forestgreen;
 	}
+
+nav ul li a: after {
+	position: relative;
+}
