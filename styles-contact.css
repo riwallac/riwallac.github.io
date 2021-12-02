@@ -113,6 +113,6 @@ a:hover{
 	color:forestgreen;
 	}
 
-nav ul li a: after {
+nav ul li a:after {
 	position: relative;
 }
