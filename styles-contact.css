@@ -117,7 +117,7 @@ nav ul li a:before {
 	transition: all .5s;
 }
 nav ul li a:hover {
-	color: mediumorchid;
+	color: rgb(232, 215, 250);
 	}
 
 nav ul li a{
@@ -132,7 +132,7 @@ nav ul li a:after {
 	width: 0;
 	content: '.';
 	color: transparent;
-	background: rgb(232, 215, 250);
+	background:mediumorchid;
 	height: 1px;
 	}
 nav ul li a:hover:after {
