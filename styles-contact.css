@@ -65,24 +65,38 @@ html, body {
 	font-family: "helvetica", sans-serif;
 }
 
-.center {
-    width: 70%;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(247, 243, 229, 0.65); /*this uses opacity of 75% for the background color*/
-	text-align: center;
-}
+#tv {
+		position: relative;
+		width: 200px;
+		height: 150px;
+		margin: 20px 0;
+		background: rgb(236, 252, 186);
+		border-radius: 50% / 10%;
+		color: white;
+		text-align: center;
+		text-indent: .1em;
+	  }
+	  #tv:before {
+		content: '';
+		position: absolute;
+		top: 10%;
+		bottom: 10%;
+		right: -5%;
+		left: -5%;
+		background: inherit;
+		border-radius: 5% / 50%;
+	  }
   
 #logo {
-    margin-bottom: 40px;
-	margin-top: 30px;
+    margin-bottom: 45px;
+	margin-top: 35px;
 	text-align: center;
 }
 
 p {
 	font-size: 1.2em;
     line-height: 1.6;
-    color:rgb(86, 131, 4);
+    color:darkslategrey;
 }
     
 nav{
@@ -104,13 +118,13 @@ nav a {
 	}
 
 a {
-	color:rgb(86, 131, 4);
+	color:darkslategrey;
 	text-decoration: none;
 	font-weight: bold;
 	}
 
 a:hover{
-	color:rgb(185, 146, 247);
+	color:forestgreen;
 	}
 
 nav ul li a:after {
