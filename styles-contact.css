@@ -65,11 +65,11 @@ html, body {
 	font-family: "helvetica", sans-serif;
 }
 
-.oval {
+#center {
 	border-radius: 50%;
 	height: 150px;
 	width: 300px;
-	background-color: rgb(176, 255, 176);
+	background-color: rgb(200, 255, 200);
 	  
 #logo {
     margin-bottom: 45px;
