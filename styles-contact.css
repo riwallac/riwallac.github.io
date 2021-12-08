@@ -63,8 +63,7 @@ html, body {
   background: url(images/background.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
-	font-family: "helvetica", sans-serif;
-
+	font-family: "Playfair Display", "Didot" "Times New Roman", Times, serif;
 }
 
 .center {
