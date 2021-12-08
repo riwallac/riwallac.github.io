@@ -63,7 +63,7 @@ html, body {
   background: url(images/background.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
-	font-family: "Playfair Display", "Didot" "Times New Roman", Times, serif;
+	font-family: "Playfair Display", "Didot" "Times New Roman", Times, sans-serif;
 }
 
 .center {
@@ -92,7 +92,7 @@ nav{
 	width: 80%;
 	margin: 0 auto;
 	padding: 20px 0;
-		font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif;
+		font-family: "Helvetica", sans-serif;
 	text-align: center;
 	margin-top: 2em;
 	}
