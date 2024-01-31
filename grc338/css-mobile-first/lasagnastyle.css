@@ -1,0 +1,87 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+body{
+    background-color: rgb(253, 252, 250);
+}
+
+header{
+    background-color: rgb(255, 152, 0);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h1{
+    color: rgb(253, 252, 250);
+    background-color: rgb(255, 152, 0);
+    font-family: Sutro, serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 1.5em;
+}
+
+h2 {
+    color: rgb(251, 208, 144);
+    background-color: rgb(255, 152, 0);
+    font-family: Sutro, serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 1.5em;
+}
+
+figcaption{
+    color: rgb(22, 22, 22);
+    font-family: poppins, san-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 1em;
+    margin-left: 1.5em;
+}
+
+h3{
+    color: rgb(255, 152, 0);
+    font-family: Sutro, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    line-height: 300%;
+}
+
+ul{
+    color: rgb(22, 22, 22);
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: .5em;
+    margin-left: 1em;
+}
+
+ol{
+    color: rgb(22, 22, 22);
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: .5em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+footer{
+    color: rgb(253, 252, 250);
+    background-color: rgb(255, 152, 0);
+    padding: 1em;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
