@@ -13,8 +13,8 @@ body{
 
 header{
     background-color: rgb(255, 152, 0);
-    padding-top: 1em;
     padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 h1{
@@ -22,8 +22,9 @@ h1{
     background-color: rgb(255, 152, 0);
     font-family: Sutro, serif;
     font-weight: 700;
+    font-size: 3em;
     font-style: normal;
-    margin-left: 1.5em;
+    margin-left: .6em;
 }
 
 h2 {
@@ -31,8 +32,9 @@ h2 {
     background-color: rgb(255, 152, 0);
     font-family: Sutro, serif;
     font-weight: 300;
+    font-size: 2em;
     font-style: normal;
-    margin-left: 1.5em;
+    margin-left: 1em;
 }
 
 figcaption{
