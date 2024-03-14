@@ -1,0 +1,222 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+
+div.home-container { 
+	background: url(home-background.jpg) center right fixed;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+	min-height: 100vh;
+	margin: auto;
+	max-width: 80em;
+}
+
+div.container { 
+	position: relative;
+	min-height: 100vh;
+	margin: auto;
+	max-width: 80em;
+	background-color: rgb(255, 250, 254);
+}
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { 
+	padding: 2rem 2rem 5rem;
+	}
+body {
+	font-family:sans-serif;
+	background-color: rgb(255, 249, 249);
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 13em auto;
+	background: rgb(255, 250, 254);
+	padding: 0rem 1rem;
+	}
+
+h1 {
+	width: 13rem;
+	}
+
+h2, h3, h4 {
+		font-weight: bold;
+	}
+
+h2 {
+	font-size: 2rem;
+	margin: 1rem 0.2rem 0.15rem;
+	font-family: "bungee", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(253, 107, 161);
+	}
+	
+h3 {
+	font-size: 1.5rem;
+	margin: 2rem 0.25rem 1rem;
+	font-family: "bungee", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(253, 107, 161);
+}
+
+h4 {
+	font-family: "bungee", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(2, 1, 2)
+}
+
+
+a {
+	text-decoration: none;
+	}
+
+nav ul  {
+	text-align: right;
+	}
+	
+ul li 	{
+	list-style-type: none;
+}
+
+figure {
+	margin-bottom: 2rem;
+}
+
+main.menu ul {
+		margin: 0;
+}	
+
+main.menu ul li {
+		margin: 0 0 1em;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+}	
+
+p {
+	margin: 1rem 0.3rem 0.1rem;
+	line-height: 140%;
+	font-family: "bungee", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: rgb(2, 1, 2);
+	}
+	
+p.description {
+	grid-column: 1/3;
+	margin: 0;
+	line-height: 140%;
+	}
+	
+p.price {
+	grid-row: 1/2;
+	grid-column: 2/3;
+	color: rgb(253, 107, 161);
+	text-align: right;
+	margin: 0;
+	}	
+
+span {
+	color: rgb(253, 107, 161);
+	padding-right: .5em;
+}	
+
+ul.homepage-items {
+	font-family: "bungee", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+article {
+	max-width: 40em;
+	margin: auto
+}	
+
+
+nav ul li {
+	font-family: "bungee", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	margin-bottom: 1.5rem;
+	font-size: 1em;
+}
+
+nav ul li.selected a {
+	color:rgb(253, 107, 161);
+	font-family: "bungee", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	box-shadow: 0px 0px 2px 1px rgba(248, 73, 178, 0.8);
+}
+	
+nav ul li a {
+	color: rgb(253, 107, 161);
+	padding: 0.4rem;
+	}
+	
+
+p.slogan {
+	font-family: "bungee", sans-serif;
+	font-weight: 400;
+	font-size: 4em;
+	font-style: normal;
+	margin: 0.1rem 0.5rem 7rem;
+	color: rgb(2, 1, 2);
+	}
+	
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  font-family: "bungee", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+  box-sizing: border-box;
+  padding: 1rem 0.5rem;
+  color: rgb(255, 250, 254);
+  background: rgb(249, 58, 128);
+}
+
+address {
+	font-family: "bungee", sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	font-style: normal;
+	color: rgb(2, 1, 2);
+	margin: 0.25rem;
+	}
+
+
+footer p {
+	margin: 0;
+	color: rgb(255, 250, 254);
+}
+
+@media screen and (min-width: 60em) {
+nav {
+	margin: auto 1em;
+}
+nav ul li{
+	padding: 0 0.25em;
+	display: inline;
+	font-size: 1.5em;
+}
+main.menu ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1em 3em;
+	} 
+}	
