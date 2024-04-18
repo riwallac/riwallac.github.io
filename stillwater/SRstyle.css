@@ -130,7 +130,7 @@ p.price {
 	}	
 
 span {
-	color: rgb(253, 107, 161);
+	color: rgb(161, 219, 255);
 	padding-right: .5em;
 }	
 
@@ -176,7 +176,7 @@ p.slogan {
 	}
 
 span.coloraccent {
-	color: rgb(253, 107, 161);
+	color: rgb(161, 219, 255)
 }	
 	
 footer {
