@@ -142,7 +142,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1.25em; 
-    max-width: 600px;
+    max-width: 37.5em;
     margin: 0 auto; 
 }
 
@@ -212,7 +212,7 @@ button[type="submit"]:hover {
     }
 
     .small-images img {
-        max-width: 80px; 
+        max-width: 5em; 
     }
 }
 
@@ -403,7 +403,7 @@ section.secondary a p {
 .small-images {
     flex: 1;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.63em;
     align-items: center;
 }
 }
